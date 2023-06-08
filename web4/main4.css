@@ -1,35 +1,56 @@
-#menu{
-  width: 100%;
-  height: 65px;
-  background-color: black;
+.menu {
+  list-style-type: none;
   display: flex;
-  
+  flex-direction: row;
+  justify-content: space-between;
+  width: 30%;
+  height: 60px;
+  padding-left: 0%;
 }
-.me-ch{
-  display: inline-block;
-  padding-top: 25px;
-  padding-left: 10px;
-  width: 5%;
+#menuplace {
+  background-color: black;
+  width: 100%;
+  height: 60px;
 }
-.me-ch:hover{
-  display: inline-block;
-  padding-top: 25px;
-  padding-left: 10px;
-  width: 5%;
+.menu-ele {
+  color: white;
+  padding-top: 20px;
+  position: relative;
+}
+.menu-ele:hover {
+  color: white;
+  padding-top: 20px;
   background-color: red;
 }
-
-#content{
+a {
+  text-decoration: none;
+  color: black;
+}
+#appear1 {
   list-style-type: none;
-  background-color: bisque;
-}
-#e-content:hover{
-  background-color: lightgrey ;
-}
-.ele1{
   display: inline-block;
-  position: absolute;
+  background-color: lightgray;
+  padding-left: 0%;
 }
-.me-ch:hover .ele1{
+.appear-el {
+  height: 30px;
+  width: 200px;
+  padding-top: 15px;
+  padding-left: 5px;
+}
+.appear-el:hover {
+  height: 30px;
+  width: 200px;
+  padding-top: 15px;
+  padding-left: 5px;
+  background-color: gray;
+}
+#forappear {
+  display: none;
+  position: absolute;
+  top: 60px;
+}
+
+.menu-ele:hover #forappear {
   display: block;
 }
