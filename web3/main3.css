@@ -1,0 +1,29 @@
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+#menu-2 {
+  display: inline-block;
+  position: relative;
+  top: 62px;
+  left: -40px;
+}
+li {
+  border: 1px solid gainsboro;
+  background-color: gold;
+  width: auto;
+  height: 40px;
+  padding-top: 20px;
+}
+li:hover {
+  border: 1px solid gainsboro;
+  background-color: grey;
+  width: auto;
+  height: 40px;
+  padding-top: 20px;
+}
+ul {
+  list-style-type: none;
+  width: 250px;
+}

@@ -1,0 +1,19 @@
+#header {
+  background-color: pink;
+}
+#main {
+  display: flex;
+  background: gray;
+}
+#content-1 {
+  background-color: greenyellow;
+}
+#content-2 {
+  background-color: plum;
+}
+#content-3 {
+  background-color: aqua;
+}
+#footer {
+  background-color: yellowgreen;
+}
